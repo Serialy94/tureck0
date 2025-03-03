@@ -13,7 +13,7 @@ header {
 }
 .hero {
     padding: 50px;
-    background: url('https://source.unsplash.com/1600x900/?movie') center/cover no-repeat;
+    background: url('https://source.unsplash.com/1600x900/?cinema') center/cover no-repeat;
 }
 .hero h2 {
     font-size: 36px;
@@ -32,10 +32,14 @@ button {
 .movie-grid {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
-.movie-item {
-    background: gray;
-    padding: 50px;
+.movie-item img {
+    width: 200px;
+    height: 300px;
     border-radius: 5px;
+    transition: transform 0.3s;
+}
+.movie-item img:hover {
+    transform: scale(1.1);
 }
