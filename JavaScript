@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('JavaScript is loaded and ready!');
-    // Add any interactivity or functionality here
+    // Add any additional interactivity or functionality here
 });
